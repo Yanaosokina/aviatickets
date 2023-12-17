@@ -1,0 +1,133 @@
+.cards {
+  margin: 0;
+  padding: 5px 0;
+  padding-left: 20px;
+
+  list-style: none;
+}
+
+.card {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: white;
+    background-color: #208be8;
+  }
+
+  &__logo {
+    width: 30px;
+    height: 30px;
+
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  &__price {
+    text-align: right;
+  }
+
+  &__body hr {
+    width: 97%;
+    margin: 0 auto;
+  }
+
+  &__flight {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 10px 15px;
+  }
+
+  &__info {
+    margin: 0;
+  }
+
+  &__arrow {
+    padding: 0 5px;
+  }
+
+  &__dates {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 25px;
+    padding: 10px 15px;
+  }
+
+  &__time {
+    padding-right: 3px;
+    font-size: 1.15rem;
+    font-weight: bold;
+  }
+
+  &__carier {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    &-info {
+      margin: 0;
+      padding: 10px 15px;
+    }
+  }
+
+  &__button {
+    width: 100%;
+    padding: 10px;
+    color: white;
+    text-transform: uppercase;
+    background-color: #fc621a;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+      background-color: #de1c14;
+      font-weight: bold;
+    }
+    &:active {
+      background-color: #a8120c;
+      font-weight: bold;
+    }
+  }
+}
+
+.price {
+  font-size: 20px;
+}
+
+.price-info {
+  margin: 0;
+  font-size: 12px;
+}
+
+.arrival-time {
+  padding: 0;
+  padding-left: 3px;
+  font-size: 14px;
+  font-weight: 300;
+}
+
+.flight-duration {
+  padding: 0;
+}
+
+.empty-results {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.cards-wraper {
+  width: 65%;
+  min-width: 540px;
+}

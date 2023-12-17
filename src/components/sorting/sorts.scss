@@ -1,0 +1,47 @@
+.sort {
+    width: 260px;
+
+
+  &__sorting .sort__filter .sort__price {
+    margin-bottom: 30px;
+    border-color: #2384da;
+  }
+
+  &__title {
+    padding: 0 5px;
+    font-weight: bold;
+  }
+
+  &__list {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0;
+  }
+
+   &__radio {
+    margin-right: 5px;
+    cursor: pointer;
+   }
+
+   &__price {
+    &-label {
+      display: flex;
+      justify-content: flex-end;
+    }
+
+    &-input {
+      width: 75%;
+      margin-left: 10px;
+      padding: 3px;
+
+      &:focus {
+        background-color: #aeafb6;
+      }
+    }
+   }
+}  
+
+.sort__checkbox {
+  cursor: pointer;
+}
+  
